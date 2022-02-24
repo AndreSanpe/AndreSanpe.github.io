@@ -1,0 +1,28 @@
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+#resumo{
+    font-style: italic;
+    text-decoration: none;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(184, 180, 180, 0.705);
+}
+
+.estilo-destacado{
+    color: rgb(84, 145, 214);
+    font-weight: 900;
+
+}git 
+
+.tamanho30px{
+    font-size: 20px;
+}
+
+.imagemRedonda{
+    border-radius: 20%;
+}
+
+
