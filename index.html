@@ -1,48 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>André Santos Pereira</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfófio - André Santos Pereira</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-    </head>    
-    <body>
-        <h1> <a href="#foto">André Santos Pereira</a></h1> 
-        <h2><b>Índice</b></h2>
-        <br>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="meuNome">
+        <h1> <a href="#foto">André Santos Pereira</a></h1>
+    </div>
+    <div>
+        <div class="barraDeMenu">
+            <div>
+                <a class="button" href="#resumo">Resumo de quem é o <b>André</b></a>
+            </div>
+            <div>
+                <a class="button" href="#habilidades">Habilidades</a>
+            </div>
+            <div>
+                <a class="button" href="#redes">Outras Redes</a>
+            </div>
+        </div>
+
+        <div class="imagem-e-resumo">
+            <div>
+                <img class="imagemRedonda" src="./imagens/foto-andre.jpeg" id="foto" width="300px"
+                    alt="Foto do André Santos Pereira sorrindo. Ao fundo é possivel ver árvores">
+            </div>
+
+            <div>
+                <p class="resumo-pessoal">Engenheiro de Minas, formado na Universidade Federal de Alfenas. Nascido em Poços de
+                    Caldas-MG em 03/05/1990. Pai da pequena Juju e casado com a Fernandinha. Atualmente estudando na
+                    Trybe com o intuito de mudar de carreira.</p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h2 id="habilidades">Habilidades que mais orgulho</h2>
+    </div>
+
+    <div>
         <ul>
-            <li><h2><a class="button" href="#resumo">Resumo de quem é o <b>André</b></a></h2><br></li>
-            <li><h2><a class="button" href="#habilidades">Habilidades</a></h2><br></li>
-            <li><h2><a class="button" href="#redes">Outras Redes</a></h2><br></li>
+            <li>Adoro <strong>correr</strong></li>
+            <li class="estilo-destacado">Gosto de jogar Tênis</li>
+            <li class="tamanho30px"><strong>Cozinheiro</strong> nas horas vagas</li>
+            <li class="estilo-destacado">Entendo de carro <i>(já fiz curso de mecânica de autos e moto)</i></li>
+            <li class="tamanho30px">Entendo de Eletricidade <i>(Sou técnico em Eletrotécnica)</i></li>
         </ul>
-        
-        <img class="imagemRedonda" src="./imagens/foto-andre.jpeg" id= "foto" alt="Foto do André Santos Pereira sorrindo. Ao fundo é possivel ver árvores" width="300px">
-        <h2 id="resumo"><p>Engenheiro de Minas, formado na Universidade Federal de Alfenas.
-             <br> Nascido em Poços de Caldas-MG em 03/05/1990. 
-             <br> Pai da pequena Juju e casado com a Fernandinha. 
-             <br> Atualmente estudando na Trybe com o intuito de mudar de carreira. </p></h2>
-        <p> 
-            <h2 id="habilidades">Habilidades que mais orgulho</h2>
-            <ul>
-                <li>Adoro <strong>correr</strong></li>
-                <li class="estilo-destacado">Gosto de jogar Tênis</li>
-                <li class="tamanho30px"><strong>Cozinheiro</strong> nas horas vagas</li>
-                <li class="estilo-destacado">Entendo de carro <i>(já fiz curso de mecânica de autos e moto)</i></li>
-                <li class="tamanho30px">Entendo de Eletricidade <i>(Sou técnico em Eletrotécnica)</i></li>
-            </ul>
-        </p>
-        <p>
-            <h2 id="redes">Outras Redes</h2><br>
-            <img src="./imagens/logo-linkedin.png" alt="logo do linkedin" width="20px">
-            <a href="https://www.linkedin.com/in/andresantospereira/" target="_blank"> Linkedin</a><br>
-            <img src="./imagens/logo-github.png" alt="logo do GitHub" width="20px">
-            <a href="https://github.com/AndreSanpe" target="_blank">GitHub</a><br>
-        </p>
+    </div>
+
+    <div>
+        <h2 id="redes">Outras Redes</h2><br>
+        <img src="./imagens/logo-linkedin.png" alt="logo do linkedin" width="20px">
+        <a href="https://www.linkedin.com/in/andresantospereira/" target="_blank"> Linkedin</a><br>
+        <img src="./imagens/logo-github.png" alt="logo do GitHub" width="20px">
+        <a href="https://github.com/AndreSanpe" target="_blank">GitHub</a><br>
+    </div>
 
 
-    </body>
+</body>
+
 </html>
