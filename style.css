@@ -1,37 +1,89 @@
-h1{
-    text-decoration: none;
-    color: black;
+*{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
 
 
 }
-#resumo{
-    text-decoration: none;
-    font-weight: 900;
-
-}
-body{
-    background-color: rgba(184, 180, 180, 0.705);
+body {
+  background-color: azure;
 }
 
-.estilo-destacado{
-    color: rgb(84, 145, 214);
-    font-weight: 900;
-
-}git 
-
-.tamanho30px{
-    font-size: 20px;
+section {
+  border: 1px solid black;
 }
 
-.imagemRedonda{
-    border-radius: 20%;
+.resumo-pessoal {
+  text-decoration: none;
+  font-weight: 900;
+  text-align: justify;
+  padding: 100px 500px 10px 10px;
 }
 
-.button{
-    padding: 30px;
-    background-color: rgb(84, 145, 214);
-    border-radius: 20px;
-    line-height: 40px;
-    text-decoration: none;
-    color: black;
+.nomeHeader{
+  color: azure;
+}
+
+.barraDeMenu ul li {
+  height: auto;
+  display: inline-flex;
+  position: relative;
+  list-style-type: none;
+}
+
+/* .meuNome {
+  text-align: left;
+  font-weight: 900;
+  text-decoration: none;
+  display: inline-block;
+} */
+
+.estilo-destacado {
+  color: #a2be3a;
+  font-weight: 900;
+}
+
+.tamanho30px {
+  font-size: 20px;
+}
+
+.imagemRedonda {
+  border-radius: 20%;
+  margin: 10px;
+  background-color: #77a8a8;
+  padding: 10px;
+}
+
+.imagemRedonda:hover {
+  margin: none;
+  background-color: #475e49;
+}
+
+.button {
+  padding: 15px;
+  background-color: rgb(40, 104, 177);
+  border-radius: 10px;
+  line-height: 40px;
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  transition: 0.5;
+}
+
+.imagem-e-resumo {
+  display: inline-flex;
+  position: relative;
+}
+
+.button:hover {
+  padding: 17px;
+  background-color: #1f5aa6;
+}
+header {
+  display: inline-block;
+  background-color: #a2be3a;
+  width: 100%;
+  /* position: fixed; */
+}
+main{
+  /* position: absolute; */
 }
