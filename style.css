@@ -30,12 +30,12 @@ section {
   list-style-type: none;
 }
 
-/* .meuNome {
+.meuNome {
   text-align: left;
   font-weight: 900;
   text-decoration: none;
   display: inline-block;
-} */
+}
 
 .estilo-destacado {
   color: #a2be3a;
@@ -84,6 +84,6 @@ header {
   width: 100%;
   /* position: fixed; */
 }
-main{
-  /* position: absolute; */
-}
+/* main{
+  position: absolute;
+} */
