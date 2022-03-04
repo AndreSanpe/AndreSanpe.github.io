@@ -82,7 +82,7 @@ header {
   display: inline-block;
   background-color: #a2be3a;
   width: 100%;
-  /* position: fixed; */
+  position: fixed;
 }
 /* main{
   position: absolute;
